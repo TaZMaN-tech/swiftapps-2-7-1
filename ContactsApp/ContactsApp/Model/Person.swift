@@ -15,14 +15,12 @@ struct Person {
     static func getPerson() -> [Person] {
         var persons: [Person] = []
         
-        let dataManager = DataManager.init()
-        
-        for i in 0..<dataManager.names.count {
+        for i in 0..<DataManager.shared.names.count {
             let person = Person(
-                name: dataManager.names[i],
-                surname: dataManager.surnames[i],
-                phone: dataManager.phones[i],
-                email: dataManager.emails[i]
+                name: DataManager.shared.names[i],
+                surname: DataManager.shared.surnames[i],
+                phone: DataManager.shared.phones[i],
+                email: DataManager.shared.emails[i]
             )
             persons.append(person)
         }

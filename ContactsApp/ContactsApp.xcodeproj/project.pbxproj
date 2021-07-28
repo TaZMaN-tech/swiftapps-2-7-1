@@ -47,6 +47,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C0732A4B26B1FE1F00655B27 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C092154F26B04FA300F30615 /* SceneDelegate.swift */,
+				C092154D26B04FA300F30615 /* AppDelegate.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C0732A4C26B1FE3C00655B27 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C092155626B04FA300F30615 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C0732A4D26B1FE5500655B27 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				C092155826B04FA300F30615 /* LaunchScreen.storyboard */,
+				C092155326B04FA300F30615 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		C0732A4E26B1FEA500655B27 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C092156526B058F700F30615 /* DataManager.swift */,
+				C092156326B0584400F30615 /* Person.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C0732A4F26B1FED500655B27 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C092156126B0515A00F30615 /* ContactsTableViewController.swift */,
+				C0732A4926B1F10D00655B27 /* DetailContactsTableViewController.swift */,
+				C092156726B0661800F30615 /* PersonsTabBarController.swift */,
+				C0732A4726B1ED1C00655B27 /* DetailViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		C092154126B04FA300F30615 = {
 			isa = PBXGroup;
 			children = (
@@ -66,18 +112,12 @@
 		C092154C26B04FA300F30615 /* ContactsApp */ = {
 			isa = PBXGroup;
 			children = (
-				C092154D26B04FA300F30615 /* AppDelegate.swift */,
-				C092154F26B04FA300F30615 /* SceneDelegate.swift */,
-				C092155326B04FA300F30615 /* Main.storyboard */,
-				C092156126B0515A00F30615 /* ContactsTableViewController.swift */,
-				C0732A4926B1F10D00655B27 /* DetailContactsTableViewController.swift */,
-				C092155626B04FA300F30615 /* Assets.xcassets */,
-				C092155826B04FA300F30615 /* LaunchScreen.storyboard */,
+				C0732A4F26B1FED500655B27 /* ViewControllers */,
+				C0732A4E26B1FEA500655B27 /* Model */,
+				C0732A4D26B1FE5500655B27 /* Storyboards */,
+				C0732A4C26B1FE3C00655B27 /* Resources */,
+				C0732A4B26B1FE1F00655B27 /* Supporting Files */,
 				C092155B26B04FA300F30615 /* Info.plist */,
-				C092156326B0584400F30615 /* Person.swift */,
-				C092156526B058F700F30615 /* DataManager.swift */,
-				C092156726B0661800F30615 /* PersonsTabBarController.swift */,
-				C0732A4726B1ED1C00655B27 /* DetailViewController.swift */,
 			);
 			path = ContactsApp;
 			sourceTree = "<group>";

@@ -112,11 +112,11 @@
             </objects>
             <point key="canvasLocation" x="2456" y="-25"/>
         </scene>
-        <!--Item-->
+        <!--Contacts-->
         <scene sceneID="g5N-Pr-W0C">
             <objects>
                 <navigationController id="Auf-eG-dX3" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" image="square.and.arrow.up" catalog="system" id="Bpb-Ru-Xwz"/>
+                    <tabBarItem key="tabBarItem" title="Contacts" image="square.and.arrow.up" catalog="system" id="Bpb-Ru-Xwz"/>
                     <navigationItem key="navigationItem" id="sx2-hP-Sov"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="dSV-qK-K5w">
                         <rect key="frame" x="0.0" y="44" width="414" height="96"/>
@@ -149,11 +149,11 @@
             </objects>
             <point key="canvasLocation" x="-258" y="104"/>
         </scene>
-        <!--Item-->
+        <!--Contacts-->
         <scene sceneID="2hg-vJ-fr8">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="CXJ-yC-Gac" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" image="square.and.arrow.up.fill" catalog="system" id="3z6-RO-jye"/>
+                    <tabBarItem key="tabBarItem" title="Contacts" image="square.and.arrow.down.fill" catalog="system" id="3z6-RO-jye"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="460-Mb-D7F">
                         <rect key="frame" x="0.0" y="44" width="414" height="96"/>
@@ -170,8 +170,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="square.and.arrow.down.fill" catalog="system" width="121" height="128"/>
         <image name="square.and.arrow.up" catalog="system" width="115" height="128"/>
-        <image name="square.and.arrow.up.fill" catalog="system" width="115" height="128"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
